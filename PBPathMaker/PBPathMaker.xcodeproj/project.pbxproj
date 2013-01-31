@@ -14,6 +14,7 @@
 		2EF0770B16BA3D84002CEC92 /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0770A16BA3D84002CEC92 /* PBAppDelegate.m */; };
 		2EF0770E16BA3D84002CEC92 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EF0770C16BA3D84002CEC92 /* MainMenu.xib */; };
 		2EF0771916BA3FF3002CEC92 /* PBPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0771816BA3FF3002CEC92 /* PBPathView.m */; };
+		2EF0772116BA4749002CEC92 /* PBPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0772016BA4747002CEC92 /* PBPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		2EF0770D16BA3D84002CEC92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2EF0771716BA3FF3002CEC92 /* PBPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPathView.h; sourceTree = "<group>"; };
 		2EF0771816BA3FF3002CEC92 /* PBPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPathView.m; sourceTree = "<group>"; };
+		2EF0771F16BA4747002CEC92 /* PBPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPoint.h; sourceTree = "<group>"; };
+		2EF0772016BA4747002CEC92 /* PBPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				2EF0771716BA3FF3002CEC92 /* PBPathView.h */,
 				2EF0771816BA3FF3002CEC92 /* PBPathView.m */,
 				2EF0770C16BA3D84002CEC92 /* MainMenu.xib */,
+				2EF0771F16BA4747002CEC92 /* PBPoint.h */,
+				2EF0772016BA4747002CEC92 /* PBPoint.m */,
 				2EF076FE16BA3D84002CEC92 /* Supporting Files */,
 			);
 			path = PBPathMaker;
@@ -175,6 +180,7 @@
 				2EF0770416BA3D84002CEC92 /* main.m in Sources */,
 				2EF0770B16BA3D84002CEC92 /* PBAppDelegate.m in Sources */,
 				2EF0771916BA3FF3002CEC92 /* PBPathView.m in Sources */,
+				2EF0772116BA4749002CEC92 /* PBPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

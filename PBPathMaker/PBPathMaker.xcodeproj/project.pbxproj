@@ -14,6 +14,7 @@
 		2EF0770B16BA3D84002CEC92 /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0770A16BA3D84002CEC92 /* PBAppDelegate.m */; };
 		2EF0770E16BA3D84002CEC92 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EF0770C16BA3D84002CEC92 /* MainMenu.xib */; };
 		2EF0771916BA3FF3002CEC92 /* PBPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0771816BA3FF3002CEC92 /* PBPathView.m */; };
+		2EF0771E16BA4645002CEC92 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0771D16BA4645002CEC92 /* JSONKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		2EF0770D16BA3D84002CEC92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2EF0771716BA3FF3002CEC92 /* PBPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPathView.h; sourceTree = "<group>"; };
 		2EF0771816BA3FF3002CEC92 /* PBPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPathView.m; sourceTree = "<group>"; };
+		2EF0771C16BA4645002CEC92 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		2EF0771D16BA4645002CEC92 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +52,7 @@
 		2EF076EB16BA3D84002CEC92 = {
 			isa = PBXGroup;
 			children = (
+				2EF0771A16BA4644002CEC92 /* Externals */,
 				2EF076FD16BA3D84002CEC92 /* PBPathMaker */,
 				2EF076F616BA3D84002CEC92 /* Frameworks */,
 				2EF076F516BA3D84002CEC92 /* Products */,
@@ -105,6 +109,24 @@
 				2EF0770616BA3D84002CEC92 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EF0771A16BA4644002CEC92 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				2EF0771B16BA4645002CEC92 /* JSONKit */,
+			);
+			name = Externals;
+			path = ../Externals;
+			sourceTree = "<group>";
+		};
+		2EF0771B16BA4645002CEC92 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				2EF0771C16BA4645002CEC92 /* JSONKit.h */,
+				2EF0771D16BA4645002CEC92 /* JSONKit.m */,
+			);
+			path = JSONKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +197,7 @@
 				2EF0770416BA3D84002CEC92 /* main.m in Sources */,
 				2EF0770B16BA3D84002CEC92 /* PBAppDelegate.m in Sources */,
 				2EF0771916BA3FF3002CEC92 /* PBPathView.m in Sources */,
+				2EF0771E16BA4645002CEC92 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
